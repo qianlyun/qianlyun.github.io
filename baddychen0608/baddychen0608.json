@@ -15,7 +15,6 @@
 "proxy://do=live&type=txt&ext=aHR0cHM6Ly9xaWFubHl1bi5naXRodWIuaW8vYmFkZHljaGVuMDYwOC90di9saXZlLnR4dA=="
 ]}]}],
 
-
 "sites":[
 {"key":"csp_SP360","name":"🎾360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Kuaikan","name":"🎈快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},

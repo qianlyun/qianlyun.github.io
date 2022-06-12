@@ -12,7 +12,7 @@
 "spider":"https://qianlyun.github.io/xm/xm.jar",
 
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":[
-"proxy://do=live&type=txt&ext=aHR0cHM6Ly9xaWFubHl1bi5naXRodWIuaW8veG0vCnR2L2xpdmUudHh0"
+"proxy://do=live&type=txt&ext=aHR0cHM6Ly9xaWFubHl1bi5naXRodWIuaW8veG0vdHYvbGl2ZS50eHQ="
 ]}]}],
 
 

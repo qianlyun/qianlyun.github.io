@@ -1,9 +1,11 @@
 // 本地接口 https://qianlyun.github.io/协议 简易设定流程：
-// 升级猫影视TV至 2.1.1 Beta5
+// 下载底下懒人包 并记住存放位置
+// 升级猫影视TV至 2.1.1 Beta6
 // 设置 --> 存储权限 --> 允许
-// 将 Tangsan99999.zip 解压缩至"根目录"
-// 设置 --> 当前接口配置 --> 直接黏贴底下的 配置接口设定 或是也可以 透过扫码或浏览器访问网址 --> 设置配置接口
-// 配置接口设定 --> https://qianlyun.github.io/localhost/tangsan99999/xiaobai.json
+// 设置 --> 当前接口配置 --> 透过扫码或浏览器访问网址 (如 http://172.16.xx.xx:9978/api.html)
+// 假设你已透过上述方式，成功进入"猫影视.接口"配置页面
+// 配置 --> 上传文件 --> 长按刚刚下载的懒人包 选取 --> 开启 --> 确认上传? --> 确定
+// 回到猫影视TV --> 设置 --> 当前接口配置 --> https://qianlyun.github.io/localhost/tangsan99999/xiaobai.json --> 确定 --> 躺平
 
 
 {
@@ -12,9 +14,8 @@
 "spider":"https://qianlyun.github.io/tangsan99999/doraAmen.jar",
 
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":[
-"proxy://do=live&type=txt&ext=aHR0cHM6Ly9xaWFubHl1bi5naXRodWIuaW8vVGFuZ3Nhbjk5OTk5L3R2L2xpdmUudHh0"
+"proxy://do=live&type=txt&ext=aHR0cHM6Ly9xaWFubHl1bi5naXRodWIuaW8vdGFuZ3Nhbjk5OTk5L3R2L2xpdmUudHh0"
 ]}]}],
-
 
 
 "sites":[
@@ -40,6 +41,10 @@
 {"key":"美剧虫","name":"美剧虫(v1)","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://meijuchong.com/api.php/v1.vod"},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0},
 
+{"key":"csp_xpath_huya","name":"🐯虎牙(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qianlyun.github.io/tangsan99999/MeowXP/huya2.json"},
+{"key":"csp_biubiu_斗鱼","name":"🥒斗鱼(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/斗鱼.json"},
+{"key":"csp_xpath_kuqimv","name":"🎤酷奇MV(XP)","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXP/kuqimv.json"},
+
 {"key":"csp_biubiu_厂长资源-蓝光","name":"🥒厂长资源-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/厂长资源-蓝光.json"},
 {"key":"csp_biubiu_特狗影视","name":"🥒特狗影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/特狗影视.json"},
 {"key":"csp_biubiu_喜鹊视频","name":"🥒喜鹊视频(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/喜鹊视频.json"},
@@ -47,6 +52,8 @@
 {"key":"csp_biubiu_真的卡影院","name":"🥒真的卡影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/真的卡影院.json"},
 {"key":"csp_biubiu_荣耀Glory","name":"🥒荣耀Glory(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/荣耀Glory.json"},
 {"key":"csp_biubiu_87影院","name":"🥒87影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/87影院.json"},
+{"key":"csp_biubiu_dunkfun","name":"🥒dunkfun(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/dunkfun.json"},
+{"key":"csp_biubiu_麻衣高清","name":"🥒麻衣高清(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/麻衣高清.json"},
 {"key":"csp_biubiu_蓝光影院","name":"🥒蓝光影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/蓝光影院.json"},
 {"key":"csp_biubiu_干饭影视","name":"🥒干饭影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/干饭影视.json"},
 {"key":"csp_biubiu_虚拟影院","name":"🥒虚拟影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qianlyun.github.io/tangsan99999/MeowXB/虚拟影院.json"},

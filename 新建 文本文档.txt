@@ -1,0 +1,14 @@
+
+
+外网面板地址: http://1.14.94.109:8888/tencentcloud
+内网面板地址: http://10.0.0.8:8888/tencentcloud
+*以下仅为初始默认账户密码，若无法登录请执行bt命令重置账户/密码登录
+|-用户名: i28krqet
+|-新密码: 147258369
+
+cd /www/server/panel && python tools.py panel 147258369
+
+bt
+
+
+
